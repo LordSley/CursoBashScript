@@ -26,7 +26,7 @@ case $1 in
 			echo "El directorio $x ya existe"
 		else
 			echo "Creando el directorio $x"
-			mkdir -d $x
+			mkdir -d $x || mkdir $x
 	;;
 	*)
 	echo "ERROR: Indica una opción de las siguientes: check | make"
