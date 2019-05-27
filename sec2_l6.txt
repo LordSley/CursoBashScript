@@ -1,0 +1,5 @@
+Podemos probar contra un script que hayamos creado:
+sh -x script.sh
+bash -n script.sh
+
+Podemos añadir "set -u" en el codigo. A partir de aquí nos encontrará errores de escritura en la llamada de variables
